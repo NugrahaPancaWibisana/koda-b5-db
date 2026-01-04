@@ -1,0 +1,9 @@
+# WEEKLY 9
+
+## LINK
+
+LINK: [ERD TICKETING](https://dbdiagram.io/d/TICKETING-6953f54a39fa3db27bd3c0cf)
+
+## ERD IMAGE
+
+![ERD TICKETING](./TICKETING.png)
