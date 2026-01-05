@@ -4,7 +4,7 @@ WITH
         INSERT INTO
             users (email, password)
         VALUES
-            ('email@email.com', 'hashed_password') RETURNING id
+            ('email@email.com', 'password') RETURNING id
     )
 INSERT INTO
     user_details (user_id)

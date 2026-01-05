@@ -4,7 +4,6 @@ SELECT
     m.title,
     m.poster_path,
     m.release_date,
-    m.vote_average,
     STRING_AGG (
         g.name,
         ', '
