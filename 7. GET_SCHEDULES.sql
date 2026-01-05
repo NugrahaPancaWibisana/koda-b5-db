@@ -2,7 +2,7 @@
 SELECT
     s.date_time,
     c.name,
-    cd.address
+    cd.location
 FROM
     schedules s
     JOIN cinemas c ON s.cinema_id = c.id
