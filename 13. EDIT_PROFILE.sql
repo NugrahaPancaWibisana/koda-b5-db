@@ -1,8 +1,9 @@
--- EDIT PROFILE
-UPDATE detail_user
+-- EDIT PROFILE (ADMIN)
+UPDATE user_details
 SET
     first_name = 'Nugraha Panca',
     last_name = 'Wibisana',
-    phone_number = '08123456789'
+    phone_number = '08123456789',
+    updated_at = NOW()
 WHERE
-    user_id = 1
+    user_id = 1;
