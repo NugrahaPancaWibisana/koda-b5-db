@@ -1,4 +1,4 @@
--- EDIT PROFILE (ADMIN)
+-- EDIT PROFILE
 UPDATE user_details
 SET
     first_name = 'Nugraha Panca',
